@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { ActivityIndicator, StatusBar } from 'react-native';
+import { ActivityIndicator } from 'react-native';
 import ScreenContainer from '../ScreenContainer';
 import store from '../state';
 import checkAsyncStorage from '../helpers/checkAsyncStorage';

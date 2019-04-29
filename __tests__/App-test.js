@@ -5,6 +5,10 @@ import App from '../app/App';
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
+beforeEach(() => {
+  jest.useFakeTimers();
+});
+
 it('renders correctly', () => {
   renderer.create(<App />);
 });

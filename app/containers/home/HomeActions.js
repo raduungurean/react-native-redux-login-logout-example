@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Button } from 'react-native';
 import navigationService from '../../service/navigationService';
-import { logout } from '../../state/auth/actions';
+import { logout } from '../../actions/auth';
 
 class HomeActions extends Component {
   showMoreApp = () => {

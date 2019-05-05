@@ -4,10 +4,10 @@ import {
   AUTH_ERR_LOG_IN,
   AUTH_LOGOUT,
   AUTH_CLEAR_LOGIN_ERROR_MESSAGE,
-} from './types';
-import { userService } from '../../service/userService';
-import { errorParser } from '../../service/apiErrorParser';
-import navigationService from '../../service/navigationService';
+} from '../constants/auth';
+import { userService } from '../service/userService';
+import { errorParser } from '../service/apiErrorParser';
+import navigationService from '../service/navigationService';
 
 export const loggedIn = data => ({
   type: AUTH_LOGGED_IN,

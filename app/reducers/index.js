@@ -5,7 +5,7 @@ import {
   createStore,
 } from 'redux';
 import thunk from 'redux-thunk';
-import authReducer from './auth/reducer';
+import authReducer from './auth';
 
 const reducers = combineReducers({
   auth: authReducer,

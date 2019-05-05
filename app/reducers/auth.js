@@ -4,7 +4,7 @@ import {
   AUTH_LOGGED_IN,
   AUTH_LOGGING_IN,
   AUTH_LOGOUT,
-} from './types';
+} from '../constants/auth';
 
 const INITIAL_STATE = {
   user: null,
@@ -14,7 +14,7 @@ const INITIAL_STATE = {
 };
 
 export default function (state = INITIAL_STATE, action) {
-  switch (action.type) {
+  switch (action.auth) {
     case AUTH_LOGOUT: {
       return {
         ...INITIAL_STATE,

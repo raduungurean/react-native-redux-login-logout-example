@@ -45,9 +45,6 @@
     ],
     "transformIgnorePatterns": [
       "node_modules/(?!react-native|react-navigation)/"
-    ],
-    "setupFiles": [
-      "./jestSetupFile.js"
     ]
   }
 }

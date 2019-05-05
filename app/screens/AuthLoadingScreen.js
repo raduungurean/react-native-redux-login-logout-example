@@ -2,9 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { ActivityIndicator } from 'react-native';
 import ScreenContainer from '../ScreenContainer';
-import store from '../state';
+import store from '../reducers';
 import checkAsyncStorage from '../helpers/checkAsyncStorage';
-import { loggedIn } from '../state/auth/actions';
+import { loggedIn } from '../actions/auth';
 import navigationService from '../service/navigationService';
 
 class AuthLoadingScreen extends React.Component {

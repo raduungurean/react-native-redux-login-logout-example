@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Button, Input } from 'react-native-elements';
 import { ActivityIndicator, Alert } from 'react-native';
-import { clearLoginErrorMessage, login } from '../../state/auth/actions';
+import { clearLoginErrorMessage, login } from '../../actions/auth';
 
 class LoginForm extends Component {
   state = {

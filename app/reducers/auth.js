@@ -14,7 +14,7 @@ const INITIAL_STATE = {
 };
 
 export default function (state = INITIAL_STATE, action) {
-  switch (action.auth) {
+  switch (action.type) {
     case AUTH_LOGOUT: {
       return {
         ...INITIAL_STATE,

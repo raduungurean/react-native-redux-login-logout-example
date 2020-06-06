@@ -1,4 +1,4 @@
-import { NavigationActions } from 'react-navigation';
+import { NavigationActions } from "react-navigation";
 
 let _navigator;
 
@@ -11,7 +11,7 @@ function navigate(routeName, params) {
     NavigationActions.navigate({
       routeName,
       params,
-    }),
+    })
   );
 }
 

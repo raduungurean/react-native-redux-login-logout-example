@@ -1,3 +1,5 @@
+### updated version [here](https://github.com/raduungurean/react-native-redux-auth-login-logout-example)
+
 # react-native-redux-login-logout-example
 
 Authentication example with react-native and redux.
